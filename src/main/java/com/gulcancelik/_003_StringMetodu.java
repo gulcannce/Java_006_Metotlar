@@ -8,7 +8,7 @@ public class _003_StringMetodu {
 
     private String hesabiKapat(int uyeNo, String adi, String soyadi, boolean uyeDurumu) {
 
-        if( (uyeBul(uyeNo) == true) && (uyeDurumu == true)  ){
+        if( (uyeBul(uyeNo) == true) && (uyeDurumu == true)  ){ 
 
             return "TAMAM HESAP BORCU "+ adi + " "+  soyadi + " İÇİN ÖDENMİŞTİR.";
 
